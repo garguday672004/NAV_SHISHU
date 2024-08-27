@@ -1,0 +1,10 @@
+-> npm i concurrently
+
+-> "server": "cd proBE && npm run dev",
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
+
+-> put BE in FE folder and then add the above scripts to run both fe and be concurrently.
+
+Q.-> kaha fsse the bhai..?
+-> localStorage mein nahi daali user ki value aur reload krne pe vo firese null ho jaari thi to sb undefined show krta.
+-> Outlet Component
