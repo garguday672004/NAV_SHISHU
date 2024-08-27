@@ -1,12 +1,14 @@
-NAV SHISHU - SURROGACY WEBSITE
-• A website that acts as a bridge between potential Surrogate Mothers
-and Intended Parents.
-• Full stack CRUD application that supports pagination.
-• Global states managed using React-Redux, routing managed using
-React Router DOM.
-• Implemented a secure login mechanism, including OTP verification.
-• Integrated JSON web tokens for authentication and authorisation of
-users.
-• Implemented password hashing using Bcrypt and email-automation
-using Nodemailer.
-• Tools & Technologies : MERN Stack, Tailwind
+# NAV SHISHU - Surrogacy Website
+
+**Nav Shishu** is a comprehensive platform designed to connect potential Surrogate Mothers with Intended Parents, providing a seamless and secure user experience.
+
+### Key Features:
+- **Full Stack CRUD Application**: Supports seamless creation, reading, updating, and deletion of data with pagination for efficient data management.
+- **Global State Management**: Utilizes React-Redux for centralized and scalable state management.
+- **Routing**: Managed using React Router DOM for smooth navigation and user experience.
+- **Secure Authentication**: Implements a robust login mechanism, including OTP verification and JSON Web Tokens (JWT) for user authentication and authorization.
+- **Data Security**: Features password hashing using Bcrypt and automated email services powered by Nodemailer.
+
+### Tools & Technologies:
+- **MERN Stack**: MongoDB, Express.js, React, Node.js
+- **Styling**: Tailwind CSS
