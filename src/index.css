@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+.spinner {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  border-radius: 50%;
+  -webkit-mask: radial-gradient(farthest-side, #0000 40%, #000 41%);
+  mask: radial-gradient(farthest-side, #0000 40%, #000 41%);
+  background: linear-gradient(0deg, #766df480 50%, #766df4ff 0) center/4px 100%,
+    linear-gradient(90deg, #766df440 50%, #766df4bf 0) center/100% 4px;
+  background-repeat: no-repeat;
+  animation: s3 1s infinite steps(12);
+}
+.spinner::before,
+.spinner::after {
+  content: "";
+  grid-area: 1/1;
+  border-radius: 50%;
+  background: inherit;
+  opacity: 0.915;
+  transform: rotate(30deg);
+}
+.spinner::after {
+  opacity: 0.83;
+  transform: rotate(60deg);
+}
+
+@keyframes s3 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.separator {
+  margin: 0 5px; /* Adjust the spacing between input fields */
+  color: #333; /* Change the color of the separator */
+}
+
+.otp-input {
+  width: 60px; /* Set the width of each input field */
+  height: 60px; /* Set the height of each input field */
+  font-size: 20px; /* Adjust the font size of the input field */
+  text-align: center; /* Center align text in input field */
+  border: 1px solid #ccc; /* Add border to input field */
+  border-radius: 5px; /* Add border-radius to input field */
+  margin: 0 5px; /* Adjust spacing between input fields */
+  outline: none; /* Remove outline */
+}
