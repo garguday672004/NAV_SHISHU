@@ -12,3 +12,5 @@
 ### Tools & Technologies:
 - **MERN Stack**: MongoDB, Express.js, React, Node.js
 - **Styling**: Tailwind CSS
+
+[![Watch the video](https://img.youtube.com/vi/haiCGXsQLoE/maxresdefault.jpg)](https://youtu.be/haiCGXsQLoE?si=kdDKAAFtAdONxI19)
